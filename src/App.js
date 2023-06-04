@@ -1,12 +1,12 @@
 import React from 'react';
-import LoginForm from './LoginForm';
-import { ThemeProvider } from './ThemeContext';
+import TodoList from './TodoList';
+import './TodoList.css';
 
 const App = () => {
   return (
-    <ThemeProvider>
-      <LoginForm />
-    </ThemeProvider>
+    <div className="container">
+      <TodoList />
+    </div>
   );
 };
 
